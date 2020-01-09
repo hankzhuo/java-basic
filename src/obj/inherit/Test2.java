@@ -1,8 +1,6 @@
-package obj.test;
+package obj.inherit;
 
-import obj.inherit.Animal;
-
-public class ObjectTest {
+public class Test2 {
     public static void main(String[] args) {
         Animal one = new Animal("花花");
         Animal two = new Animal("花花");
@@ -16,7 +14,5 @@ public class ObjectTest {
         String str2 = new String("Hello");
         flag = str1.equals(str2);
         System.out.println("str1 和 str2 引用比较：" + flag);
-
-
     }
 }

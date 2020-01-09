@@ -2,7 +2,7 @@ package obj.inherit;
 
 public class Cat extends Animal {
     private double weight; // 体重
-    public int temp = 15;
+    public int temp = 15; // 重写父类中属性 temp
 
     static {
         System.out.println("我是子类的静态代码块");
@@ -17,8 +17,7 @@ public class Cat extends Animal {
     }
 
     public Cat(double weight) {
-        // 子类构造默认调用父类无参构造，但是如果子类构造中使用 super() 可以选择调用有参构造
-        // super("哈皮");
+        // super("哈皮"); // 子类构造默认调用父类无参构造，但是如果子类构造中使用 super() 可以选择调用有参构造
         System.out.println("我是子类的带参构造");
         this.weight = weight;
     }

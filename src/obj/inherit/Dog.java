@@ -22,6 +22,7 @@ public class Dog extends Animal{
         System.out.println(this.getName() + "在睡觉~");
     }
     // 方法重写，覆盖父类中 eat 方法
+    @Override
     public void eat() {
         System.out.println(this.getName() + "不想吃东西~");
     }

@@ -1,12 +1,6 @@
 package obj.inherit;
 
 public class Animal {
-    /**
-     * private：只允许在本类中访问
-     * public：允许在任意位置访问
-     * protected：允许在当前类、同包子类/非子类、跨包子类调用、跨包非子类不允许
-     * 默认：允许在当前类、同包子类、跨包子类不允许
-     */
     private String name; // 昵称
     protected int month; // 月份
     String species; // 品种
