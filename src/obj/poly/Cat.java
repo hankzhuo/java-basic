@@ -33,9 +33,6 @@ public class Cat extends Animal implements IPlay, ISon {
         System.out.println("猫吃鱼~");
     }
 
-    public static void say() {
-        System.out.println("猫咪打招呼");
-    }
     // 接口重写方法
     @Override
     public void play() {

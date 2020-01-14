@@ -5,9 +5,4 @@ public class Test implements ISon {
     public void run() {
 
     }
-
-    @Override
-    public void say() {
-
-    }
 }

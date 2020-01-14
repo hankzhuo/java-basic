@@ -15,3 +15,5 @@ Java 平台
 Java 程序执行过程：.java 结尾的源文件，经过编译器 compiler 编译后生成 .class
 结尾字节码文件，该文件经过解释器 interpreter 后执行程序。
 
+
+Spring Cloud事实上是一整套基于Spring Boot的微服务解决方案。
